@@ -1,0 +1,196 @@
+{
+  "cover_drive": {
+    "front_knee_angle": {
+      "too_low":  "Bend your front knee deeper to lower your center of gravity and stabilize your stance.",
+      "too_high": "Straighten your front knee slightly to improve weight transfer and avoid over-collapsing."
+    },
+    "back_knee_angle": {
+      "too_low":  "Engage your back knee more by bending slightly to maintain a strong base at impact.",
+      "too_high": "Reduce the bend in your back knee to prevent excessive squat and enable a smoother follow-through."
+    },
+    "front_elbow_angle": {
+      "too_low":  "Lift your front elbow higher to create a more direct bat path and improve control.",
+      "too_high": "Tuck your front elbow in slightly to keep the bat face square and reduce swing variance."
+    },
+    "back_elbow_angle": {
+      "too_low":  "Bend your back elbow more to allow a fluid follow-through and reduce strain.",
+      "too_high": "Straighten your back elbow slightly to optimize your swing arc and power transfer."
+    },
+    "shoulder_rotation": {
+      "too_low":  "Rotate your shoulders further to generate torso torque and increase shot power.",
+      "too_high": "Limit your shoulder rotation to maintain balance and avoid over-rotation."
+    },
+    "hip_rotation": {
+      "too_low":  "Open your hips more to facilitate energy transfer from your lower body into the shot.",
+      "too_high": "Ease your hip turn to keep your body aligned and avoid losing power."
+    },
+    "spine_forward_lean": {
+      "too_low":  "Lean your torso forward slightly to improve reach and contact point.",
+      "too_high": "Reduce your forward lean to maintain posture and balance."
+    },
+    "head_tilt": {
+      "too_low":  "Tilt your head toward the ball more to keep your eyes locked on the strike zone.",
+      "too_high": "Level your head to stabilize your gaze and body alignment."
+    },
+    "bat_angle": {
+      "too_low":  "Raise your bat angle to meet the ball on the sweet spot and prevent ground-hits.",
+      "too_high": "Lower your bat angle to ensure a flat bat face through impact."
+    }
+  },
+
+  "bowled": {
+    "front_knee_angle": {
+      "too_low":  "Bend your front knee more to absorb the ball’s bounce and control the drive.",
+      "too_high": "Straighten your front knee slightly to keep the bat face level and avoid collapse."
+    },
+    "back_knee_angle": {
+      "too_low":  "Add a slight bend in your back knee to enhance stability and weight distribution.",
+      "too_high": "Reduce your back knee bend to avoid locking and allow quick foot movement."
+    },
+    "front_elbow_angle": {
+      "too_low":  "Raise your front elbow to position the bat under the ball for a full straight drive.",
+      "too_high": "Lower your front elbow slightly to keep the bat face square through impact."
+    },
+    "back_elbow_angle": {
+      "too_low":  "Slightly bend your back elbow to smooth your swing and follow-through.",
+      "too_high": "Straighten your back elbow a bit to reduce strain and improve contact."
+    },
+    "shoulder_rotation": {
+      "too_low":  "Rotate your shoulders more into the shot to align your body and bat.",
+      "too_high": "Limit your shoulder rotation to avoid over-committing and maintain balance."
+    },
+    "hip_rotation": {
+      "too_low":  "Open your hips further to transfer power from legs to bat.",
+      "too_high": "Control your hip turn to keep your lower body aligned under the bat."
+    },
+    "spine_forward_lean": {
+      "too_low":  "Lean forward slightly to meet the ball on the full.",
+      "too_high": "Reduce forward lean to stay upright and balanced."
+    },
+    "head_tilt": {
+      "too_low":  "Tilt your head down to track the seam and maintain focus.",
+      "too_high": "Level your head to stabilize your sightline."
+    },
+    "bat_angle": {
+      "too_low":  "Raise your bat face to meet the ball cleanly.",
+      "too_high": "Flatten your bat face to avoid skying the shot."
+    }
+  },
+
+  "defence": {
+    "front_knee_angle": {
+      "too_low":  "Drop deeper into your front knee to create a rock-solid defensive base.",
+      "too_high": "Raise your front knee slightly to keep your center of gravity balanced."
+    },
+    "back_knee_angle": {
+      "too_low":  "Bend your back knee more to support your weight and movement.",
+      "too_high": "Straighten your back knee slightly to allow nimble footwork."
+    },
+    "front_elbow_angle": {
+      "too_low":  "Lift your front elbow to present a fuller bat face.",
+      "too_high": "Lower your front elbow slightly to square the bat face."
+    },
+    "back_elbow_angle": {
+      "too_low":  "Bend your back elbow more for a smooth and controlled defensive stroke.",
+      "too_high": "Straighten your back elbow just a bit to stabilize the block."
+    },
+    "shoulder_rotation": {
+      "too_low":  "Square your shoulders to the bowler to face the line of delivery.",
+      "too_high": "Reduce your shoulder rotation to keep your chest aligned with the ball."
+    },
+    "hip_rotation": {
+      "too_low":  "Open your hips slightly to shift weight forward.",
+      "too_high": "Limit your hip turn to maintain pad-to-bat alignment."
+    },
+    "spine_forward_lean": {
+      "too_low":  "Lean in slightly to watch the bounce.",
+      "too_high": "Sit up straight to stay balanced."
+    },
+    "head_tilt": {
+      "too_low":  "Tilt your head down to pick up the ball early.",
+      "too_high": "Level your head to maintain consistent sight."
+    },
+    "bat_angle": {
+      "too_low":  "Raise your bat face to cover the line.",
+      "too_high": "Flatten your bat face to meet the ball squarely."
+    }
+  },
+
+  "pull_shot": {
+    "front_knee_angle": {
+      "too_low":  "Sink your front knee deeper to create a stable platform for the pull.",
+      "too_high": "Raise your front knee slightly to prevent over-squatting."
+    },
+    "back_knee_angle": {
+      "too_low":  "Firm your back knee to support full body rotation.",
+      "too_high": "Soften your back knee bend to enable fluid hip rotation."
+    },
+    "front_elbow_angle": {
+      "too_low":  "Lift your front elbow to angle the bat under the ball.",
+      "too_high": "Tuck your front elbow in to tighten your swing arc."
+    },
+    "back_elbow_angle": {
+      "too_low":  "Bend your back elbow more for a smoother pull swing.",
+      "too_high": "Straighten your back elbow slightly to avoid a choppy swing."
+    },
+    "shoulder_rotation": {
+      "too_low":  "Rotate your shoulders more to drive through the pull.",
+      "too_high": "Limit your shoulder twist to maintain balance."
+    },
+    "hip_rotation": {
+      "too_low":  "Open your hips further to maximize power transfer.",
+      "too_high": "Control your hip rotation to avoid over-rotation."
+    },
+    "spine_forward_lean": {
+      "too_low":  "Lean forward slightly to reach the ball early.",
+      "too_high": "Reduce your forward lean to keep weight centered."
+    },
+    "head_tilt": {
+      "too_low":  "Tilt your head down to track the ball effectively.",
+      "too_high": "Level your head to stabilize your gaze."
+    },
+    "bat_angle": {
+      "too_low":  "Raise your bat face more to clear the ball.",
+      "too_high": "Flatten your bat face to meet the ball squarely."
+    }
+  },
+
+  "reverse_sweep": {
+    "front_knee_angle": {
+      "too_low":  "Deepen the bend in your front knee to get underneath the sweep.",
+      "too_high": "Straighten your front knee slightly to maintain balance after the sweep."
+    },
+    "back_knee_angle": {
+      "too_low":  "Bend your back knee a bit more to support body rotation.",
+      "too_high": "Soften your back knee to allow smoother weight shift."
+    },
+    "front_elbow_angle": {
+      "too_low":  "Lift your front elbow higher to clear under the ball.",
+      "too_high": "Lower your front elbow slightly to refine your sweep arc."
+    },
+    "back_elbow_angle": {
+      "too_low":  "Bend your back elbow more for a fluid follow-through.",
+      "too_high": "Straighten your back elbow a tad to stabilize your finishing position."
+    },
+    "shoulder_rotation": {
+      "too_low":  "Rotate your shoulders further to guide the sweep across the line.",
+      "too_high": "Limit your shoulder turn to maintain control."
+    },
+    "hip_rotation": {
+      "too_low":  "Open your hips more to allow full sweep rotation.",
+      "too_high": "Control your hip rotation to avoid over-rotation."
+    },
+    "spine_forward_lean": {
+      "too_low":  "Lean forward more to reach the ball on the sweep.",
+      "too_high": "Straighten your torso slightly to stay balanced."
+    },
+    "head_tilt": {
+      "too_low":  "Tilt your head down to track the low trajectory.",
+      "too_high": "Level your head to keep consistent sight."
+    },
+    "bat_angle": {
+      "too_low":  "Raise your bat face to meet the ball cleanly.",
+      "too_high": "Flatten your bat face to avoid mishits."
+    }
+  }
+}

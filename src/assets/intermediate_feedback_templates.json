@@ -1,0 +1,192 @@
+{
+  "cover_drive": {
+    "front_knee_angle": {
+      "too_low": "Your front knee is at {user} degrees, but it should be around {ideal} degrees. Try bending it more to get a stable base.",
+      "too_high": "Your front knee is at {user} degrees, ideal is {ideal} degrees. Straighten it a bit to avoid collapsing forward."
+    },
+    "back_knee_angle": {
+      "too_low": "Your back knee is {user} degrees, below the ideal {ideal} degrees. Relax it slightly for smoother follow-through.",
+      "too_high": "Your back knee is {user} degrees, which exceeds the ideal {ideal} degrees. Lower it slightly to maintain balance."
+    },
+    "front_elbow_angle": {
+      "too_low": "Your front elbow is {user} degrees, but the ideal is {ideal} degrees. Raise your elbow for a proper bat lift.",
+      "too_high": "Your front elbow is {user} degrees (ideal {ideal} degrees). Tuck it in a bit to maintain bat control."
+    },
+    "back_elbow_angle": {
+      "too_low": "Your back elbow is {user} degrees, below the ideal {ideal} degrees. Straighten it slightly for more control.",
+      "too_high": "Your back elbow is {user} degrees, above the ideal {ideal} degrees. Relax it a bit to avoid stiffness."
+    },
+    "shoulder_rotation": {
+      "too_low": "Shoulder rotation is {user} degrees, ideally {ideal} degrees. Rotate more to align with the ball.",
+      "too_high": "Your shoulders are at {user} degrees, exceeding the ideal {ideal} degrees. Maintain a controlled turn."
+    },
+    "hip_rotation": {
+      "too_low": "Your hips are at {user} degrees, ideal is {ideal} degrees. Add more hip turn for power.",
+      "too_high": "Your hips are at {user} degrees, above the ideal {ideal} degrees. Try to control the movement."
+    },
+    "spine_forward_lean": {
+      "too_low": "Your spine lean is {user} degrees, but it should be {ideal} degrees. Lean in more for balance and reach.",
+      "too_high": "You're leaning {user} degrees, more than the ideal {ideal} degrees. Straighten up for better posture."
+    },
+    "head_tilt": {
+      "too_low": "Your head tilt is {user} degrees, ideal is {ideal} degrees. Angle your head slightly to track the ball.",
+      "too_high": "Your head tilt is {user} degrees, above the ideal {ideal} degrees. Try to level your head."
+    },
+    "bat_angle": {
+      "too_low": "Your bat angle is {user} degrees, below the ideal {ideal} degrees. Raise the bat slightly to connect better.",
+      "too_high": "Your bat angle is {user} degrees, above the ideal {ideal} degrees. Lower it for a more grounded shot."
+    }
+  },
+  "bowled": {
+    "front_knee_angle": {
+      "too_low": "Your front knee is {user} degrees, but for a straight drive it should be around {ideal} degrees. Bend more under the ball.",
+      "too_high": "Your front knee is {user} degrees, exceeding {ideal} degrees. Straighten it to keep the bat level."
+    },
+    "back_knee_angle": {
+      "too_low": "Your back knee is {user} degrees, below {ideal} degrees. Firm it slightly for stability.",
+      "too_high": "Your back knee is {user} degrees, above {ideal} degrees. Reduce bend to avoid locking."
+    },
+    "front_elbow_angle": {
+      "too_low": "Your front elbow is {user} degrees, ideal is {ideal} degrees. Lift to guide the bat under the ball.",
+      "too_high": "Your front elbow is {user} degrees, above {ideal} degrees. Tuck it for a level bat face."
+    },
+    "back_elbow_angle": {
+      "too_low": "Your back elbow is {user} degrees, below {ideal} degrees. Soften it for a smoother swing.",
+      "too_high": "Your back elbow is {user} degrees, above {ideal} degrees. Ease the bend for cleaner contact."
+    },
+    "shoulder_rotation": {
+      "too_low": "Shoulders are at {user} degrees, ideal {ideal} degrees. Rotate more into the drive.",
+      "too_high": "Shoulders are at {user} degrees, exceeding {ideal} degrees. Stay more square."
+    },
+    "hip_rotation": {
+      "too_low": "Hips at {user} degrees, ideal {ideal} degrees. Open hips for follow-through.",
+      "too_high": "Hips at {user} degrees, above {ideal} degrees. Limit rotation for balance."
+    },
+    "spine_forward_lean": {
+      "too_low": "Spine lean {user} degrees, ideal {ideal} degrees. Lean forward to meet the ball.",
+      "too_high": "Spine lean {user} degrees, above {ideal} degrees. Ease up to stay upright."
+    },
+    "head_tilt": {
+      "too_low": "Head tilt {user} degrees, ideal {ideal} degrees. Angle down to track seam.",
+      "too_high": "Head tilt {user} degrees, above {ideal} degrees. Level out for focus."
+    },
+    "bat_angle": {
+      "too_low": "Bat angle {user} degrees, below {ideal} degrees. Lift for a straight drive.",
+      "too_high": "Bat angle {user} degrees, above {ideal} degrees. Flatten face for control."
+    }
+  },
+  "defence": {
+    "front_knee_angle": {
+      "too_low": "Your front knee is {user} degrees, below {ideal} degrees. Sink into knee for a solid block.",
+      "too_high": "Your front knee is {user} degrees, above {ideal} degrees. Straighten slightly to stay upright."
+    },
+    "back_knee_angle": {
+      "too_low": "Back knee is {user} degrees, but should be {ideal} degrees. Firm it for support.",
+      "too_high": "Back knee is {user} degrees, above {ideal} degrees. Ease bend for quick footwork."
+    },
+    "front_elbow_angle": {
+      "too_low": "Front elbow is {user} degrees, below {ideal} degrees. Raise to present bat face.",
+      "too_high": "Front elbow is {user} degrees, above {ideal} degrees. Lower to square the bat."
+    },
+    "back_elbow_angle": {
+      "too_low": "Back elbow is {user} degrees, below {ideal} degrees. Bend for comfort.",
+      "too_high": "Back elbow is {user} degrees, above {ideal} degrees. Soften for smooth defence."
+    },
+    "shoulder_rotation": {
+      "too_low": "Shoulders at {user} degrees, ideal {ideal} degrees. Square up to the bowler.",
+      "too_high": "Shoulders at {user} degrees, above {ideal} degrees. Keep chest facing ball."
+    },
+    "hip_rotation": {
+      "too_low": "Hips at {user} degrees, but ideal {ideal} degrees. Open slightly to shift weight.",
+      "too_high": "Hips at {user} degrees, above {ideal} degrees. Align hips with pads."
+    },
+    "spine_forward_lean": {
+      "too_low": "Spine lean {user} degrees, ideal {ideal} degrees. Lean in to watch the bounce.",
+      "too_high": "Spine lean {user} degrees, above {ideal} degrees. Sit up to stay balanced."
+    },
+    "head_tilt": {
+      "too_low": "Head tilt {user} degrees, below {ideal} degrees. Angle down to pick up the ball.",
+      "too_high": "Head tilt {user} degrees, above {ideal} degrees. Level your head for consistency."
+    },
+    "bat_angle": {
+      "too_low": "Bat angle {user} degrees, under {ideal} degrees. Raise to cover line.",
+      "too_high": "Bat angle {user} degrees, above {ideal} degrees. Flatten to meet the ball."
+    }
+  },
+  "pull_shot": {
+    "front_knee_angle": {
+      "too_low": "Front knee at {user} degrees, ideal {ideal} degrees. Bend more for power.",
+      "too_high": "Front knee at {user} degrees, above {ideal} degrees. Straighten to transfer weight back."
+    },
+    "back_knee_angle": {
+      "too_low": "Back knee at {user} degrees, under {ideal} degrees. Firm it for support.",
+      "too_high": "Back knee at {user} degrees, above {ideal} degrees. Ease bend for rotation."
+    },
+    "front_elbow_angle": {
+      "too_low": "Front elbow at {user} degrees, below {ideal} degrees. Lift for better bat clearance.",
+      "too_high": "Front elbow at {user} degrees, above {ideal} degrees. Tuck in for control."
+    },
+    "back_elbow_angle": {
+      "too_low": "Back elbow at {user} degrees, under {ideal} degrees. Soften for fluid swing.",
+      "too_high": "Back elbow at {user} degrees, above {ideal} degrees. Reduce bend for accuracy."
+    },
+    "shoulder_rotation": {
+      "too_low": "Shoulders at {user} degrees, ideal {ideal} degrees. Rotate more for the pull.",
+      "too_high": "Shoulders at {user} degrees, above {ideal} degrees. Control rotation for balance."
+    },
+    "hip_rotation": {
+      "too_low": "Hips at {user} degrees, under {ideal} degrees. Open more to hit through.",
+      "too_high": "Hips at {user} degrees, above {ideal} degrees. Limit rotation for stability."
+    },
+    "spine_forward_lean": {
+      "too_low": "Spine lean {user} degrees, below {ideal} degrees. Lean forward to reach.",
+      "too_high": "Spine lean {user} degrees, above {ideal} degrees. Sit up to recover."
+    },
+    "head_tilt": {
+      "too_low": "Head tilt {user} degrees, under {ideal} degrees. Angle down to track.",
+      "too_high": "Head tilt {user} degrees, above {ideal} degrees. Level for consistency."
+    },
+    "bat_angle": {
+      "too_low": "Bat angle {user} degrees, below {ideal} degrees. Lift for power.",
+      "too_high": "Bat angle {user} degrees, above {ideal} degrees. Lower for control."
+    }
+  },
+  "reverse_sweep": {
+    "front_knee_angle": {
+      "too_low": "Front knee at {user} degrees, ideal {ideal} degrees. Bend deeper for the sweep.",
+      "too_high": "Front knee at {user} degrees, above {ideal} degrees. Straighten to recover."
+    },
+    "back_knee_angle": {
+      "too_low": "Back knee at {user} degrees, under {ideal} degrees. Bend for support.",
+      "too_high": "Back knee at {user} degrees, above {ideal} degrees. Soften for mobility."
+    },
+    "front_elbow_angle": {
+      "too_low": "Front elbow at {user} degrees, below {ideal} degrees. Lift for clearance.",
+      "too_high": "Front elbow at {user} degrees, above {ideal} degrees. Lower for control."
+    },
+    "back_elbow_angle": {
+      "too_low": "Back elbow at {user} degrees, under {ideal} degrees. Flex for flow.",
+      "too_high": "Back elbow at {user} degrees, above {ideal} degrees. Ease for follow-through."
+    },
+    "shoulder_rotation": {
+      "too_low": "Shoulders at {user} degrees, ideal {ideal} degrees. Rotate to open up.",
+      "too_high": "Shoulders at {user} degrees, above {ideal} degrees. Control twist."
+    },
+    "hip_rotation": {
+      "too_low": "Hips at {user} degrees, under {ideal} degrees. Open hips to sweep.",
+      "too_high": "Hips at {user} degrees, above {ideal} degrees. Limit rotation for balance."
+    },
+    "spine_forward_lean": {
+      "too_low": "Spine lean {user} degrees, below {ideal} degrees. Lean in to reach.",
+      "too_high": "Spine lean {user} degrees, above {ideal} degrees. Sit up to stay centered."
+    },
+    "head_tilt": {
+      "too_low": "Head tilt {user} degrees, under {ideal} degrees. Angle down to watch the ball.",
+      "too_high": "Head tilt {user} degrees, above {ideal} degrees. Level out your head."
+    },
+    "bat_angle": {
+      "too_low": "Bat angle {user} degrees, below {ideal} degrees. Lift for the sweep.",
+      "too_high": "Bat angle {user} degrees, above {ideal} degrees. Lower to meet the ball."
+    }
+  }
+}

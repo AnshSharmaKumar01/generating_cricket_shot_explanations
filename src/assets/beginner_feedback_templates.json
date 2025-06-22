@@ -1,0 +1,556 @@
+{
+  "cover_drive": {
+    "front_knee_angle": {
+      "too_low": {
+        "small": "Bend your front knee just a bit more for stability.",
+        "medium": "Bend your front knee further to improve your shot balance.",
+        "large": "You're almost standing upright-bend your front knee much more to stabilize your body."
+      },
+      "too_high": {
+        "small": "Slightly straighten your front knee for better weight transfer.",
+        "medium": "Your front knee is overly bent-straighten it to maintain control.",
+        "large": "Your front leg is too collapsed-keep it more extended to avoid falling over."
+      }
+    },
+    "back_knee_angle": {
+      "too_low": {
+        "small": "Relax your back leg a little more.",
+        "medium": "Your back knee is too tight-loosen it for a better follow-through.",
+        "large": "You're squatting too much-stand taller on your back leg."
+      },
+      "too_high": {
+        "small": "Slightly lower your back leg to maintain a strong stance.",
+        "medium": "Avoid locking your back knee-bring it down a bit.",
+        "large": "You're overextending your back leg-reduce the angle significantly."
+      }
+    },
+    "front_elbow_angle": {
+      "too_low": {
+        "small": "Raise your front elbow slightly.",
+        "medium": "Your elbow is too low-lift it to guide the bat properly.",
+        "large": "You're collapsing your elbow-lift it higher to fix your shot path."
+      },
+      "too_high": {
+        "small": "Keep your front elbow a little closer.",
+        "medium": "Your elbow is too high-lower it slightly to control the bat.",
+        "large": "Your elbow is flaring out-bring it down significantly."
+      }
+    },
+    "back_elbow_angle": {
+      "too_low": {
+        "small": "Straighten your back elbow just a bit.",
+        "medium": "Straighten your elbow more to clean your shot.",
+        "large": "You're overbending your elbow-straighten it significantly."
+      },
+      "too_high": {
+        "small": "Bend your back elbow slightly.",
+        "medium": "Avoid locking your elbow-give it a soft bend.",
+        "large": "Your elbow is completely locked-loosen it a lot more."
+      }
+    },
+    "shoulder_rotation": {
+      "too_low": {
+        "small": "Rotate your shoulders a little more into the shot.",
+        "medium": "You're under-rotating-align your shoulders with the shot direction.",
+        "large": "Your shoulders are square-rotate them significantly toward the ball."
+      },
+      "too_high": {
+        "small": "Ease off the shoulder turn slightly.",
+        "medium": "You're over-rotating-maintain better body control.",
+        "large": "You're swinging around too far-reduce shoulder twist a lot."
+      }
+    },
+    "hip_rotation": {
+      "too_low": {
+        "small": "Add a little hip rotation for power.",
+        "medium": "Your hips are stiff-rotate more into the shot.",
+        "large": "You're not rotating at all-turn your hips significantly for power transfer."
+      },
+      "too_high": {
+        "small": "Control your hips-reduce the turn slightly.",
+        "medium": "Too much hip turn-keep your body more aligned.",
+        "large": "You're spinning out-limit your hip rotation drastically."
+      }
+    },
+    "spine_forward_lean": {
+      "too_low": {
+        "small": "Lean a little more forward to reach the ball.",
+        "medium": "You're too upright-lean your upper body more.",
+        "large": "You're standing tall-lean significantly forward to make contact."
+      },
+      "too_high": {
+        "small": "Straighten your back a little.",
+        "medium": "You're leaning too far-ease your forward lean.",
+        "large": "You're hunched over-straighten your back a lot to stay balanced."
+      }
+    },
+    "head_tilt": {
+      "too_low": {
+        "small": "Tilt your head slightly to track the ball better.",
+        "medium": "Your head is too stiff-angle it toward the ball more.",
+        "large": "You're staring straight ahead-tilt your head significantly."
+      },
+      "too_high": {
+        "small": "Keep your head a bit straighter.",
+        "medium": "You're tilting your head too much-level it out.",
+        "large": "Your head is falling sideways-hold it more upright."
+      }
+    },
+    "bat_angle": {
+      "too_low": {
+        "small": "Lift the bat a little more for better direction.",
+        "medium": "Your bat is too flat-raise it to connect cleanly.",
+        "large": "You're swinging with a low bat-lift it significantly for accuracy."
+      },
+      "too_high": {
+        "small": "Lower the bat slightly for cleaner contact.",
+        "medium": "Your bat is too vertical-adjust it downward.",
+        "large": "You're swinging over-reduce the bat angle dramatically."
+      }
+    }
+  },
+
+  "bowled": {
+    "front_knee_angle": {
+      "too_low": {
+        "small": "Bend your front knee a bit more to get under the ball.",
+        "medium": "You're too upright-bend your front knee to absorb the ball's bounce.",
+        "large": "You're almost standing straight-drop into your front knee significantly to play safely."
+      },
+      "too_high": {
+        "small": "Ease off the bend in your front knee slightly.",
+        "medium": "Your front knee is over-bent-straighten it to keep the bat level.",
+        "large": "You're squatting too low-lift your front knee up to play the drive."
+      }
+    },
+    "back_knee_angle": {
+      "too_low": {
+        "small": "Straighten your back leg just a little.",
+        "medium": "Your back knee is too relaxed-firm it up for a stable base.",
+        "large": "You're collapsing on the back leg-keep it more extended for balance."
+      },
+      "too_high": {
+        "small": "Loosen your back knee bend slightly.",
+        "medium": "Your back knee is too rigid-allow a small bend for mobility.",
+        "large": "You're overlocking your back knee-give it more flex to move easily."
+      }
+    },
+    "front_elbow_angle": {
+      "too_low": {
+        "small": "Raise your front elbow a bit to guide the bat under the ball.",
+        "medium": "Your elbow is too low-lift it to meet the ball on the full.",
+        "large": "You're collapsing your elbow-raise it significantly to control the drive."
+      },
+      "too_high": {
+        "small": "Lower your elbow slightly to keep the bat straight.",
+        "medium": "Your elbow is too high-tuck it in to maintain a level bat face.",
+        "large": "Your elbow is flaring out-bring it down to align with the ball."
+      }
+    },
+    "back_elbow_angle": {
+      "too_low": {
+        "small": "Bend your back elbow a bit for comfort.",
+        "medium": "Your back elbow is stiff-soften the bend for fluid motion.",
+        "large": "You're locking out your back elbow-give it a clear bend to swing smoothly."
+      },
+      "too_high": {
+        "small": "Straighten your back elbow slightly.",
+        "medium": "Your back elbow is over-bent-reduce the bend for a cleaner stroke.",
+        "large": "You're overflexing the back elbow-ease it to avoid a jerky follow-through."
+      }
+    },
+    "shoulder_rotation": {
+      "too_low": {
+        "small": "Turn shoulders a bit more toward the ball.",
+        "medium": "You're under-rotating-align shoulders for a straight drive.",
+        "large": "Your shoulders are square-rotate fully into the bowled shot."
+      },
+      "too_high": {
+        "small": "Back off shoulder rotation slightly.",
+        "medium": "Your shoulders are over-rotated-stay more square for control.",
+        "large": "You're twisting too much-reduce shoulder turn for accuracy."
+      }
+    },
+    "hip_rotation": {
+      "too_low": {
+        "small": "Rotate hips a little more with the shot.",
+        "medium": "Your hips are stiff-open them up for follow-through.",
+        "large": "You're not rotating-turn hips significantly for power."
+      },
+      "too_high": {
+        "small": "Control your hip turn slightly.",
+        "medium": "Your hip rotation is excessive-keep hips more aligned.",
+        "large": "You're spinning out-limit hip rotation for balance."
+      }
+    },
+    "spine_forward_lean": {
+      "too_low": {
+        "small": "Lean in a bit more over the ball.",
+        "medium": "You're too upright-hinge forward to meet the delivery.",
+        "large": "You're standing tall-lean significantly to play the shot on the full."
+      },
+      "too_high": {
+        "small": "Straighten your back a little.",
+        "medium": "You're leaning too far-ease the forward lean.",
+        "large": "You're collapsing forward-sit up to maintain posture."
+      }
+    },
+    "head_tilt": {
+      "too_low": {
+        "small": "Tilt your head slightly toward the ball.",
+        "medium": "Your head is too level-angle it down to watch the seam.",
+        "large": "You're looking ahead-tilt significantly to track the ball."
+      },
+      "too_high": {
+        "small": "Raise your head a bit.",
+        "medium": "You're tilting too much-level out for better sight.",
+        "large": "Your head is leaning sideways-keep it upright."
+      }
+    },
+    "bat_angle": {
+      "too_low": {
+        "small": "Raise your bat slightly to meet the ball.",
+        "medium": "Your bat is too flat-angle it up for a straight drive.",
+        "large": "You're cutting under the ball-lift the bat significantly for a full drive."
+      },
+      "too_high": {
+        "small": "Lower your bat a bit.",
+        "medium": "Your bat is too vertical-flatten the face slightly.",
+        "large": "You're chopping down-reduce bat angle drastically to avoid skying."
+      }
+    }
+  },
+
+  "defence": {
+    "front_knee_angle": {
+      "too_low": {
+        "small": "Bend your front knee a bit more for a solid defence.",
+        "medium": "You're too upright-sink into your front knee to block effectively.",
+        "large": "You're nearly standing straight-deeply bend your front knee for stability."
+      },
+      "too_high": {
+        "small": "Ease off the bend slightly.",
+        "medium": "Your front knee is over-bent-straighten it to control your block.",
+        "large": "You're squatting too much-lift your front knee to stand firm."
+      }
+    },
+    "back_knee_angle": {
+      "too_low": {
+        "small": "Straighten your back leg just a bit.",
+        "medium": "Your back knee is too relaxed-firm it up for a strong block.",
+        "large": "You're collapsing your back leg-extend it more for balance."
+      },
+      "too_high": {
+        "small": "Loosen your back knee bend slightly.",
+        "medium": "Your back knee is over-bent-reduce the angle for mobility.",
+        "large": "You're locking your back knee-add flex to shift your weight easily."
+      }
+    },
+    "front_elbow_angle": {
+      "too_low": {
+        "small": "Raise your front elbow slightly for a straighter bat.",
+        "medium": "Your elbow is too low-lift it to present a full face.",
+        "large": "You're collapsing your elbow-raise it more to defend cleanly."
+      },
+      "too_high": {
+        "small": "Lower your elbow a bit.",
+        "medium": "Your elbow is flaring out-tuck it to maintain a solid block.",
+        "large": "Your elbow is too high-bring it down to square the bat face."
+      }
+    },
+    "back_elbow_angle": {
+      "too_low": {
+        "small": "Bend your back elbow a little.",
+        "medium": "Your back elbow is stiff-give it some flex for comfort.",
+        "large": "You're locking out-bend more for a smooth defensive stroke."
+      },
+      "too_high": {
+        "small": "Straighten your back elbow slightly.",
+        "medium": "Your back elbow is overly bent-reduce the bend for a firm block.",
+        "large": "You're over-flexing-ease it so the bat stays straight."
+      }
+    },
+    "shoulder_rotation": {
+      "too_low": {
+        "small": "Square your shoulders more to the bowler.",
+        "medium": "You're under-rotated-face your chest more toward the ball.",
+        "large": "Your shoulders are too open-rotate back to defend."
+      },
+      "too_high": {
+        "small": "Back off shoulder turn slightly.",
+        "medium": "Your shoulders are over-rotated-stay square for defence.",
+        "large": "You're twisting too much-keep shoulders aligned with pads."
+      }
+    },
+    "hip_rotation": {
+      "too_low": {
+        "small": "Rotate hips a bit to meet the ball.",
+        "medium": "Your hips are too square-open slightly for balance.",
+        "large": "You're not rotating-turn hips more to shift weight."
+      },
+      "too_high": {
+        "small": "Control your hip turn a little.",
+        "medium": "Your hip rotation is excessive-keep hips more square.",
+        "large": "You're spinning out-limit hip rotation for a solid block."
+      }
+    },
+    "spine_forward_lean": {
+      "too_low": {
+        "small": "Lean forward a bit to watch the ball.",
+        "medium": "You're too upright-hinge forward to block effectively.",
+        "large": "You're barely leaning-sit into your front leg to create a strong barrier."
+      },
+      "too_high": {
+        "small": "Straighten your back a little.",
+        "medium": "You're leaning too far-keep torso more vertical.",
+        "large": "You're bending over excessively-straighten up to maintain balance."
+      }
+    },
+    "head_tilt": {
+      "too_low": {
+        "small": "Tilt your head down slightly to watch the bounce.",
+        "medium": "You're too level-angle down for better tracking.",
+        "large": "Your head is too high-tilt significantly to stay focused on the ball."
+      },
+      "too_high": {
+        "small": "Lift your head a bit.",
+        "medium": "You're tilting too much-level it out.",
+        "large": "Your head is on your shoulder-straighten up for clarity."
+      }
+    },
+    "bat_angle": {
+      "too_low": {
+        "small": "Lift your bat face slightly to cover the line.",
+        "medium": "Your bat is too flat-raise it to block effectively.",
+        "large": "You're chopping under-increase angle to defend."
+      },
+      "too_high": {
+        "small": "Lower the bat a little.",
+        "medium": "Your bat is too vertical-flatten it to meet the ball.",
+        "large": "You're over-swinging-reduce bat angle drastically."
+      }
+    }
+  },
+
+  "pull_shot": {
+    "front_knee_angle": {
+      "too_low": {
+        "small": "Bend your front knee a bit more to get under the pull.",
+        "medium": "You're too upright-sink into your front knee for power.",
+        "large": "You're almost straight-drop deeply into your front knee for leverage."
+      },
+      "too_high": {
+        "small": "Ease off the bend slightly.",
+        "medium": "Your front knee is over-bent-straighten it to transfer weight back.",
+        "large": "You're squatting too much-lift your knee for a balanced pull."
+      }
+    },
+    "back_knee_angle": {
+      "too_low": {
+        "small": "Straighten your back leg a little.",
+        "medium": "Your back knee is too relaxed-firm it for support.",
+        "large": "You're collapsing-extend back leg for stability."
+      },
+      "too_high": {
+        "small": "Soften your back knee bend slightly.",
+        "medium": "Your back knee is over-bent-reduce bend for mobility.",
+        "large": "You're locking your back knee-give it more flex to rotate."
+      }
+    },
+    "front_elbow_angle": {
+      "too_low": {
+        "small": "Raise your front elbow a bit for bat lift.",
+        "medium": "Your elbow is too low-lift to guide the pull shot.",
+        "large": "You're collapsing-raise elbow significantly to clear the ball."
+      },
+      "too_high": {
+        "small": "Lower your elbow slightly.",
+        "medium": "Your elbow is too high-tuck it in to keep bat control.",
+        "large": "Your elbow is flaring-bring it down to square the pull."
+      }
+    },
+    "back_elbow_angle": {
+      "too_low": {
+        "small": "Bend your back elbow a little.",
+        "medium": "Your back elbow is stiff-soften it for fluid swing.",
+        "large": "You're locking out-bend more for a smooth pull."
+      },
+      "too_high": {
+        "small": "Straighten your back elbow slightly.",
+        "medium": "Your back elbow is over-bent-ease it for cleaner contact.",
+        "large": "You're overflexing-reduce bend to avoid a jerky shot."
+      }
+    },
+    "shoulder_rotation": {
+      "too_low": {
+        "small": "Turn shoulders more across the line.",
+        "medium": "Your shoulders are under-rotated-open up for the pull.",
+        "large": "You're too square-rotate significantly to hit through."
+      },
+      "too_high": {
+        "small": "Back off shoulder turn slightly.",
+        "medium": "Your shoulders are over-rotated-stay more aligned.",
+        "large": "You're twisting too much-limit rotation for control."
+      }
+    },
+    "hip_rotation": {
+      "too_low": {
+        "small": "Open your hips a bit more.",
+        "medium": "Your hips are too square-rotate for the pull shot.",
+        "large": "You're not rotating-turn hips significantly for power."
+      },
+      "too_high": {
+        "small": "Control hip turn slightly.",
+        "medium": "Your hip rotation is excessive-keep hips more aligned.",
+        "large": "You're spinning out-limit rotation for stability."
+      }
+    },
+    "spine_forward_lean": {
+      "too_low": {
+        "small": "Lean forward a bit to prepare for the pull.",
+        "medium": "You're too upright-hinge forward into the shot.",
+        "large": "You're standing tall-lean significantly for reach."
+      },
+      "too_high": {
+        "small": "Straighten your back a little.",
+        "medium": "You're leaning too far-ease the lean.",
+        "large": "You're collapsing-sit up to maintain balance."
+      }
+    },
+    "head_tilt": {
+      "too_low": {
+        "small": "Tilt head toward the ball slightly.",
+        "medium": "Your head is too level-angle it down to watch.",
+        "large": "You're tilting too little-drop your head significantly to track the ball."
+      },
+      "too_high": {
+        "small": "Raise your head slightly.",
+        "medium": "Your head tilt is overdone-level it out.",
+        "large": "You're looking sideways-straighten head for focus."
+      }
+    },
+    "bat_angle": {
+      "too_low": {
+        "small": "Lift your bat slightly for the pull.",
+        "medium": "Your bat is too flat-raise it to clear the ball.",
+        "large": "You're chopping under-increase bat lift significantly for power."
+      },
+      "too_high": {
+        "small": "Lower your bat a bit.",
+        "medium": "Your bat is too vertical-flatten for better contact.",
+        "large": "You're over-swinging-reduce angle drastically for control."
+      }
+    }
+  },
+
+  "reverse_sweep": {
+    "front_knee_angle": {
+      "too_low": {
+        "small": "Sink into your front knee more for the sweep.",
+        "medium": "You're too upright-drop low into your front knee.",
+        "large": "You're almost standing-deeply bend front knee for the reverse sweep."
+      },
+      "too_high": {
+        "small": "Ease off the bend slightly.",
+        "medium": "Your front knee is over-bent-straighten it to recover balance.",
+        "large": "You're squatting too much-lift your knee up after the sweep."
+      }
+    },
+    "back_knee_angle": {
+      "too_low": {
+        "small": "Firm your back knee a little.",
+        "medium": "Your back knee is too relaxed-bend slightly for support.",
+        "large": "You're collapsing-extend back knee for stability."
+      },
+      "too_high": {
+        "small": "Soften your back knee bend.",
+        "medium": "Your back knee is over-bent-reduce it for mobility.",
+        "large": "You're locking-give more flex to shift weight."
+      }
+    },
+    "front_elbow_angle": {
+      "too_low": {
+        "small": "Raise your front elbow for bat clearance.",
+        "medium": "Your elbow is too low-lift it to get under the ball.",
+        "large": "You're collapsing-raise elbow significantly for the sweep path."
+      },
+      "too_high": {
+        "small": "Lower your elbow slightly.",
+        "medium": "Your elbow is flaring-tuck in to control the sweep.",
+        "large": "Your elbow is too high-bring it down for a cleaner stroke."
+      }
+    },
+    "back_elbow_angle": {
+      "too_low": {
+        "small": "Bend back elbow a bit for comfort.",
+        "medium": "Your back elbow is stiff-soften for fluid swing.",
+        "large": "You're locking out-bend more for a smoother sweep."
+      },
+      "too_high": {
+        "small": "Straighten your back elbow slightly.",
+        "medium": "Your back elbow is over-bent-ease it for proper follow-through.",
+        "large": "You're over-flexing-reduce bend to stabilize your swing."
+      }
+    },
+    "shoulder_rotation": {
+      "too_low": {
+        "small": "Rotate shoulders more across the line.",
+        "medium": "You're under-rotated-open up for the reverse sweep.",
+        "large": "You're too square-rotate significantly to clear the ball."
+      },
+      "too_high": {
+        "small": "Back off shoulder turn slightly.",
+        "medium": "Your shoulders are over-rotated-stay more controlled.",
+        "large": "You're twisting too much-limit rotation for balance."
+      }
+    },
+    "hip_rotation": {
+      "too_low": {
+        "small": "Open your hips a little more.",
+        "medium": "Your hips are too square-rotate for the sweep.",
+        "large": "You're not rotating-turn hips significantly for power."
+      },
+      "too_high": {
+        "small": "Control hip turn slightly.",
+        "medium": "Your hip rotation is excessive-keep hips more aligned.",
+        "large": "You're spinning out-limit rotation for stability."
+      }
+    },
+    "spine_forward_lean": {
+      "too_low": {
+        "small": "Lean forward a bit for reach.",
+        "medium": "You're too upright-hinge forward into the sweep.",
+        "large": "You're barely leaning-drop your torso deeply for leverage."
+      },
+      "too_high": {
+        "small": "Straighten your back slightly.",
+        "medium": "You're leaning too far-ease up the forward lean.",
+        "large": "You're collapsing-sit up tall to maintain posture."
+      }
+    },
+    "head_tilt": {
+      "too_low": {
+        "small": "Tilt head toward the ball slightly.",
+        "medium": "Your head is too level-angle it down to watch the bounce.",
+        "large": "You're tilting too little-drop significantly to track the shot."
+      },
+      "too_high": {
+        "small": "Raise your head a bit.",
+        "medium": "Your head tilt is overdone-level it out.",
+        "large": "Your head is leaning sideways-straighten up for focus."
+      }
+    },
+    "bat_angle": {
+      "too_low": {
+        "small": "Lift your bat slightly for clearance.",
+        "medium": "Your bat is too flat-raise it to sweep under the ball.",
+        "large": "You're chopping-lift the bat significantly to meet the shot."
+      },
+      "too_high": {
+        "small": "Lower your bat a little.",
+        "medium": "Your bat is too vertical-flatten it for the sweep.",
+        "large": "You're over-swinging-reduce bat angle drastically to maintain control."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "cover_drive": {
+    "front_knee_angle": 140,
+    "back_knee_angle": 160,
+    "front_elbow_angle": 90,
+    "back_elbow_angle": 100,
+    "shoulder_rotation": 30,
+    "hip_rotation": 25,
+    "spine_forward_lean": 20,
+    "head_tilt": 5,
+    "bat_angle": 45
+  },
+  "bowled": {
+    "front_knee_angle": 150,
+    "back_knee_angle": 160,
+    "front_elbow_angle": 90,
+    "back_elbow_angle": 100,
+    "shoulder_rotation": 30,
+    "hip_rotation": 25,
+    "spine_forward_lean": 20,
+    "head_tilt": 5,
+    "bat_angle": 45
+  },
+  "defence": {
+    "front_knee_angle": 135,
+    "back_knee_angle": 150,
+    "front_elbow_angle": 100,
+    "back_elbow_angle": 110,
+    "shoulder_rotation": 20,
+    "hip_rotation": 15,
+    "spine_forward_lean": 15,
+    "head_tilt": 5,
+    "bat_angle": 55
+  },
+  "pull_shot": {
+    "front_knee_angle": 150,
+    "back_knee_angle": 140,
+    "front_elbow_angle": 145,
+    "back_elbow_angle": 115,
+    "shoulder_rotation": 60,
+    "hip_rotation": 50,
+    "spine_forward_lean": 25,
+    "head_tilt": 10,
+    "bat_angle": 80
+  },
+  "reverse_sweep": {
+    "front_knee_angle": 130,
+    "back_knee_angle": 150,
+    "front_elbow_angle": 120,
+    "back_elbow_angle": 130,
+    "shoulder_rotation": 45,
+    "hip_rotation": 35,
+    "spine_forward_lean": 20,
+    "head_tilt": 5,
+    "bat_angle": 100
+  }
+}
